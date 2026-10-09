@@ -1,0 +1,28 @@
+{
+    "model_name": "Random Forest",
+    "target_column": "class",
+    "positive_class": 1,
+    "negative_class": 0,
+    "features": [
+        "Age",
+        "Gender",
+        "Polyuria",
+        "Polydipsia",
+        "sudden weight loss",
+        "weakness",
+        "Polyphagia",
+        "Genital thrush",
+        "visual blurring",
+        "Itching",
+        "Irritability",
+        "delayed healing",
+        "partial paresis",
+        "muscle stiffness",
+        "Alopecia",
+        "Obesity"
+    ],
+    "feature_count": 16,
+    "positive_label": "Positive",
+    "negative_label": "Negative",
+    "note": "Experimental early-warning screening model. Not intended for medical diagnosis."
+}
