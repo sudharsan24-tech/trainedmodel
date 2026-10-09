@@ -1,0 +1,26 @@
+{
+    "model_name": "Heart Disease Screening Model",
+    "dataset": "UCI Cleveland Heart Disease",
+    "features": [
+        "age",
+        "sex",
+        "cp",
+        "trestbps",
+        "chol",
+        "fbs",
+        "restecg",
+        "thalach",
+        "exang",
+        "oldpeak",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "target_mapping": {
+        "0": "Lower predicted risk class",
+        "1": "Elevated predicted risk class"
+    },
+    "test_accuracy": 0.85,
+    "roc_auc": 0.9369,
+    "disclaimer": "Screening estimate only; not a medical diagnosis."
+}
